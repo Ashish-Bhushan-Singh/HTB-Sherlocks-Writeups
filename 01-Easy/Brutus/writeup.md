@@ -137,7 +137,7 @@ This confirms that the suspicious IP address successfully authenticated as the `
 
 The `Accepted password` message is an important indicator of successful SSH password authentication.
 
-**Evidence screenshot:** `screenshots/04-successful-login.png`
+**Evidence screenshot:** `![Successful Login](Screenshots/04-successful-login.png)`
 
 **Answer:**
 
