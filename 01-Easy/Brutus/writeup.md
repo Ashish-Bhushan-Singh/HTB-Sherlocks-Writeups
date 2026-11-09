@@ -255,7 +255,9 @@ This behavior maps to the MITRE ATT&CK technique:
 
 The sub-technique is appropriate because the account was created locally on the compromised system.
 
-**Evidence screenshot:** `screenshots/08-mitre-mapping.png`
+**Evidence screenshot:** `
+
+![MITRE T1136.001](Screenshots/08-mitre-mapping.png)`
 
 **Answer:**
 
