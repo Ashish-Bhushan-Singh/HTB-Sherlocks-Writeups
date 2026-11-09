@@ -411,5 +411,8 @@ The Brutus investigation identified:
 **Investigation completed.**
 
 ---
+## HTB Completion Badge
+
+![Brutus Completion Badge](screenshots/completion-badge.png)
 
 *This report is an original educational writeup based on the Hack The Box Brutus investigation and the evidence examined during the lab.*
