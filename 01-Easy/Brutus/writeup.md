@@ -95,7 +95,7 @@ A useful investigation question is:
 
 When the answer is unlikely, the activity deserves further investigation.
 
-**Evidence screenshot:** `screenshots/03-bruteforce-evidence.png`
+**Evidence screenshot:** `Screenshots/03-bruteforce-evidence.png`
 
 <details>
 <summary>Observed evidence</summary>
