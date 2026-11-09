@@ -174,7 +174,8 @@ The challenge's reported answer is:
 
 **Timezone verification note:** The submitted WTMP screenshot displays `01:32:45`, while the reported challenge answer is `06:32:45 UTC`. This is a five-hour difference. The decoding environment's timezone must be verified before treating the displayed WTMP time as a UTC timestamp. Both values are retained here so the discrepancy is transparent.
 
-**Evidence screenshot:** `screenshots/05-wtmp-analysis.png`
+**Evidence screenshot:** `### Q5 – User Creation and Sudo Evidence
+![User Creation and Sudo Evidence](Screenshots/07-persistence-account.png)`
 
 **Answer reported for the challenge:**
 
