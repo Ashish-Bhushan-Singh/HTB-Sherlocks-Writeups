@@ -174,8 +174,9 @@ The challenge's reported answer is:
 
 **Timezone verification note:** The submitted WTMP screenshot displays `01:32:45`, while the reported challenge answer is `06:32:45 UTC`. This is a five-hour difference. The decoding environment's timezone must be verified before treating the displayed WTMP time as a UTC timestamp. Both values are retained here so the discrepancy is transparent.
 
-**Evidence screenshot:** `### Q5 – User Creation and Sudo Evidence
-![User Creation and Sudo Evidence](Screenshots/07-persistence-account.png)`
+**Evidence screenshot:** `
+
+![Decoded WTMP Record](Screenshots/05-wtmp-analysis.png)`
 
 **Answer reported for the challenge:**
 
@@ -197,7 +198,9 @@ This associates SSH session number `37` with the compromised root account.
 
 The session number is useful when correlating session creation and termination events.
 
-**Evidence screenshot:** `screenshots/06-session-investigation.png`
+**Evidence screenshot:** `
+
+![Session Number 37](Screenshots/06-session-investigation.png)`
 
 **Answer:**
 
@@ -230,7 +233,9 @@ Further log entries showed sudo activity associated with this account. The accou
 
 Membership in the sudo group allows an authorized user to execute commands with administrative privileges.
 
-**Evidence screenshot:** `screenshots/07-persistence-account.png`
+**Evidence screenshot:** `
+
+![User Creation and Sudo Evidence](Screenshots/07-persistence-account.png)`
 
 **Answer:**
 
