@@ -277,7 +277,9 @@ The log showed that session `37` closed at:
 
 This establishes the reported end time of the attacker's first SSH session.
 
-**Evidence screenshot:** Add the screenshot showing the session 37 termination entry as `screenshots/09-session-end.png`.
+**Evidence screenshot:** Add the screenshot showing the session 37 termination entry as `
+
+![Session 37 Closure](Screenshots/09-session-end.png)`.
 
 **Answer:**
 
@@ -301,7 +303,9 @@ The command uses `curl` to retrieve a shell script from a GitHub repository.
 
 This is relevant post-compromise activity because downloading additional scripts can be part of further system investigation, exploitation, or persistence activity. The command alone does not establish that the downloaded script was successfully executed.
 
-**Evidence screenshot:** `screenshots/10-sudo-command.png`
+**Evidence screenshot:** `
+
+![Curl Command](Screenshots/10-sudo-command.png)`
 
 **Answer:**
 
