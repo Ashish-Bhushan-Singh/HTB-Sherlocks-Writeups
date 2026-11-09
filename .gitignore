@@ -1,0 +1,29 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Sensitive Credentials and Secrets
+.env
+.env.*
+!.env.example
+credentials.txt
+passwords.txt
+secrets.txt
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Personal Configuration
+config.local
