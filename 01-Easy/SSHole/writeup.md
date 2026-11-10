@@ -80,7 +80,9 @@ SSHole/
 └── var/
 ```
 
-**Evidence:** `screenshots/pic1.png`
+**Evidence:** `
+
+![Screenshot](screenshots/pic1.png)`
 
 ### 3.3 Examining the Extracted Directories
 
