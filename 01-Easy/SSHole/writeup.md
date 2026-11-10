@@ -164,7 +164,9 @@ BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"
 
 The `VERSION_ID` field identifies the installed version as `3.24.3`.
 
-**Evidence:** `screenshots/pic3.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic3.png)`
 
 **Answer:**
 
