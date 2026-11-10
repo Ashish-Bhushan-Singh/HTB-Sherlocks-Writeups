@@ -188,7 +188,9 @@ The vulnerability is associated with an SSH authentication bypass affecting Open
 
 The investigation then examined the `/etc/shadow` file and SSH logs to determine whether the expected conditions and authentication pattern were present.
 
-**Evidence:** `screenshots/pic4.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic4.png)`
 
 **Answer:**
 
@@ -233,7 +235,9 @@ The password field for `adminsvc` contains an asterisk (`*`) rather than a conve
 
 This is an important finding because it is consistent with the account condition described in the SSH authentication bypass.
 
-**Evidence:** `screenshots/pic5.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic5.png)`
 
 ### 5.5 Examine SSH Authentication Events
 
@@ -263,7 +267,9 @@ This is significant because the `adminsvc` account's password field contained an
 
 The combination of the account configuration and the SSH authentication events supports the conclusion that the vulnerable authentication behavior was exploited.
 
-**Evidence:** `screenshots/pic6.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic6.png)`
 
 ### 5.6 Determine When the Vulnerability Was Exploited
 
@@ -284,7 +290,9 @@ Using the scenario date, the successful authentication timestamp is:
 2026-11-06 11:27:08
 ```
 
-**Evidence:** `screenshots/pic6.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic6.png)`
 
 **Answer:**
 
@@ -302,8 +310,10 @@ The two artifacts provide supporting evidence that the attacker abused the `admi
 
 **Evidence:**
 
-- `screenshots/pic5.png` — shadow file entry.
-- `screenshots/pic6.png` — SSH authentication events.
+- `
+- ![Screenshot 2](screenshots/pic5.png)` — shadow file entry.
+- `
+- ![Screenshot 2](screenshots/pic6.png)` — SSH authentication events.
 
 **Answer:**
 
@@ -325,7 +335,9 @@ The matching string value is:
 *
 ```
 
-**Evidence:** `screenshots/pic5.png` and `screenshots/pic7.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic5.png)` and `![Screenshot 2](screenshots/pic7.png)`
 
 **Answer:**
 
@@ -393,7 +405,9 @@ These results show two internal IP addresses with the listed reachable ports.
 
 The presence of port `88` on `192.168.18.23` is consistent with Kerberos-related infrastructure, while the combination of discovered ports provides useful context for further investigation. The scan output alone does not conclusively establish the role of either host.
 
-**Evidence:** `screenshots/pic8.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic8.png)`
 
 **Answer:**
 
@@ -447,7 +461,9 @@ The sequence of commands is consistent with the attacker transferring the conten
 
 The actual contents of `.devenv` are not established by the shell history alone. Its description as a sensitive file is based on the investigation context and the attacker's subsequent actions.
 
-**Evidence:** `screenshots/pic9.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic9.png)`
 
 **Answer:**
 
