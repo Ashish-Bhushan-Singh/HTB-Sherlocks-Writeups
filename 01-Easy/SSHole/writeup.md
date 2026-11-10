@@ -103,7 +103,9 @@ The home directory contained information relating to the `adminsvc` account, inc
 
 The `/var/log` directory contained the system logs required for the investigation.
 
-**Evidence:** `screenshots/pic2.png`
+**Evidence:** `
+
+![Screenshot 2](screenshots/pic2.png)`
 
 ## 4. Investigation Environment and Artifacts
 
